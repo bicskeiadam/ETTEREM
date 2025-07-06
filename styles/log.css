@@ -1,0 +1,112 @@
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/loginback.jpg");
+    background-size: cover;
+    color: #ff0000;
+}
+.container{
+    width: 75%;
+    margin-top: 10px;
+    background-color: rgba(96, 83, 64, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+#logincont{
+    margin-top: 15px;
+}
+h1{
+
+    font-weight: bold;
+    font-size: 2rem;
+    color: #f5deb3;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #f5deb3;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.form-label{
+
+    font-weight: bold;
+    color: #fff8dc;
+}
+
+input.form-control{
+
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    padding: 7px;
+    margin-bottom: 3px;
+}
+input.form-control:focus{
+    outline: none;
+    box-shadow: 0 0 20px #cfa34c;
+}
+input.form-control:hover{
+    outline: none;
+    box-shadow: 0 0 10px #cfa34c;
+}
+
+button.btn-primary{
+
+    width: 200px;
+    background-color: rgba(96, 83, 64, 0.4);
+    border:1px solid #f5deb3;
+    padding: 10px 20px;
+    font-weight: bold;
+    color:#f5deb3;
+}
+button.resetButton{
+
+    background-color: black;
+}
+button.btn-primary:hover{
+    background-color: black;
+    border:1px solid #f5deb3;
+    color:#f5deb3;
+}
+
+button.resetButton:hover{
+    background-color: rgba(255,255,255,0.5);
+    color: #000;
+}
+.alert-info{
+    font-family: "Roboto", Serif, serif;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #bfab88;
+    border-radius: 10px;
+    border:none;
+}
+a#fl{
+    display: block;
+    margin-top: 20px;
+    color:#ffe4b5;
+    text-decoration: none;
+}
+
+a#fl:hover{
+    color: #bfab88;
+}
+#strengthDisp{
+    margin-top: 5px;
+    background-color: #a52a2a;
+    color: white;
+    padding: 4px 10px;
+}
+.back{
+    font-weight: bold;
+    font-size: 1rem;
+    color: #f5deb3;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#forgetForm {
+    display: none;
+}
